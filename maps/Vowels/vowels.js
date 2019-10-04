@@ -37,7 +37,7 @@ myMap.createPane('parishesBelow')
 myMap.getPane('parishesBelow').style.zIndex = 390
 
 // Migration lines layer
-let migrationUrl = 'https://lalanguageproject.github.io/maps/Vowels/migration.geojson'
+let migrationUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/migration.geojson'
 jQuery.getJSON(migrationUrl, function (data) {
 	migration = L.geoJson(data, {
 		 onEachFeature: onEachFeature0,
@@ -55,7 +55,7 @@ let onEachFeature0 = function (feature, layer) {
  }
 
 // Layer 1 DRESS
-let dressUrl = 'https://lalanguageproject.github.io/maps/Vowels/dress.geojson'
+let dressUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/dress.geojson'
 jQuery.getJSON(dressUrl, function (data) {
 	vowels = L.geoJson(data, {
 		 onEachFeature: onEachFeature1,
@@ -116,7 +116,7 @@ let onEachFeature1 = function (feature, layer) {
  }
 
  // Layer 2 FACE
- let faceUrl = 'https://lalanguageproject.github.io/maps/Vowels/face.geojson'
+ let faceUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/face.geojson'
  jQuery.getJSON(faceUrl, function (data) {
  	vowels = L.geoJson(data, {
  		 onEachFeature: onEachFeature2,
@@ -177,7 +177,7 @@ let onEachFeature1 = function (feature, layer) {
   }
 
 	// Layer 3 FLEECE
-	let fleeceUrl = 'https://lalanguageproject.github.io/maps/Vowels/fleece.geojson'
+	let fleeceUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/fleece.geojson'
 	jQuery.getJSON(fleeceUrl, function (data) {
 	 vowels = L.geoJson(data, {
 			onEachFeature: onEachFeature3,
@@ -238,7 +238,7 @@ let onEachFeature1 = function (feature, layer) {
 	 }
 
 	 // Layer 4 FOOT
- 	let footUrl = 'https://lalanguageproject.github.io/maps/Vowels/foot.geojson'
+ 	let footUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/foot.geojson'
  	jQuery.getJSON(footUrl, function (data) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature4,
@@ -299,7 +299,7 @@ let onEachFeature1 = function (feature, layer) {
  	 }
 
 	 // Layer 5 GOAT
- 	let goatUrl = 'https://lalanguageproject.github.io/maps/Vowels/goat.geojson'
+ 	let goatUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/goat.geojson'
  	jQuery.getJSON(goatUrl, function (data) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature5,
@@ -360,7 +360,7 @@ let onEachFeature1 = function (feature, layer) {
  	 }
 
 	 // Layer 6 GOOSE
- 	let gooseUrl = 'https://lalanguageproject.github.io/maps/Vowels/goose.geojson'
+ 	let gooseUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/goose.geojson'
  	jQuery.getJSON(gooseUrl, function (data) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature6,
@@ -421,7 +421,7 @@ let onEachFeature1 = function (feature, layer) {
  	 }
 
 	 // Layer 7 KIT
- 	let kitUrl = 'https://lalanguageproject.github.io/maps/Vowels/kit.geojson'
+ 	let kitUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/kit.geojson'
  	jQuery.getJSON(kitUrl, function (data) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature7,
@@ -482,7 +482,7 @@ let onEachFeature1 = function (feature, layer) {
  	 }
 
 	 // Layer 8 LOT
- 	let lotUrl = 'https://lalanguageproject.github.io/maps/Vowels/lot.geojson'
+ 	let lotUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/lot.geojson'
  	jQuery.getJSON(lotUrl, function (data) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature8,
@@ -543,7 +543,7 @@ let onEachFeature1 = function (feature, layer) {
  	 }
 
 	 // Layer 9 MOUTH
-		let mouthUrl = 'https://lalanguageproject.github.io/maps/Vowels/mouth.geojson'
+		let mouthUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/mouth.geojson'
 		jQuery.getJSON(mouthUrl, function (data) {
 		 vowels = L.geoJson(data, {
 				onEachFeature: onEachFeature9,
@@ -605,7 +605,7 @@ let onEachFeature1 = function (feature, layer) {
 		 }
 
 		 // Layer 10 PRICE
-	 	let priceUrl = 'https://lalanguageproject.github.io/maps/Vowels/price.geojson'
+	 	let priceUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/price.geojson'
 	 	jQuery.getJSON(priceUrl, function (data) {
 	 	 vowels = L.geoJson(data, {
 	 			onEachFeature: onEachFeature10,
@@ -666,7 +666,7 @@ let onEachFeature1 = function (feature, layer) {
 	 	 }
 
 		 // Layer 11 SCHWA
-	 	let schwaUrl = 'https://lalanguageproject.github.io/maps/Vowels/schwa.geojson'
+	 	let schwaUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/schwa.geojson'
 	 	jQuery.getJSON(schwaUrl, function (data) {
 	 	 vowels = L.geoJson(data, {
 	 			onEachFeature: onEachFeature11,
@@ -728,7 +728,7 @@ let onEachFeature1 = function (feature, layer) {
 	 	 }
 
 		 // Layer 12 STRUT
-	 	let strutUrl = 'https://lalanguageproject.github.io/maps/Vowels/strut.geojson'
+	 	let strutUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/strut.geojson'
 	 	jQuery.getJSON(strutUrl, function (data) {
 	 	 vowels = L.geoJson(data, {
 	 			onEachFeature: onEachFeature12,
@@ -789,7 +789,7 @@ let onEachFeature1 = function (feature, layer) {
 	 	 }
 
 		 // Layer 13 THOUGHT
-	 	let thoughtUrl = 'https://lalanguageproject.github.io/maps/Vowels/thought.geojson'
+	 	let thoughtUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/thought.geojson'
 	 	jQuery.getJSON(thoughtUrl, function (data) {
 	 	 vowels = L.geoJson(data, {
 	 			onEachFeature: onEachFeature13,
@@ -850,7 +850,7 @@ let onEachFeature1 = function (feature, layer) {
 	 	 }
 
 // Layer 14 TRAP
-let trapUrl = 'https://lalanguageproject.github.io/maps/Vowels/trap.geojson'
+let trapUrl = 'https://ishport.github.io/lalanguageproject/maps/Vowels/trap.geojson'
 jQuery.getJSON(trapUrl, function (data) {
 	vowels = L.geoJson(data, {
 		 onEachFeature: onEachFeature14,
@@ -915,7 +915,7 @@ let onEachFeature14 = function (feature, layer) {
  }
 
 // Parishes
-let parishUrl = 'https://lalanguageproject.github.io/maps/ParishSimple.geojson'
+let parishUrl = 'https://ishport.github.io/lalanguageproject/maps/ParishSimple.geojson'
 	 jQuery.getJSON(parishUrl, function (data) {
 	 	let parishes = function (feature) {
 	 			let parishColor = '#bdc9e1'
@@ -943,7 +943,7 @@ let parishUrl = 'https://lalanguageproject.github.io/maps/ParishSimple.geojson'
   }
 
   // ZIP codes
-let zipUrl = 'https://lalanguageproject.github.io/maps/ZIPSimple.geojson'
+let zipUrl = 'https://ishport.github.io/lalanguageproject/maps/ZIPSimple.geojson'
   jQuery.getJSON(zipUrl, function (data) {
   	let zipCodes = function (feature) {
   	let edIndex = feature.properties.EdIndex
