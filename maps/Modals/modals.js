@@ -24,25 +24,25 @@ myMap.getPane('markersLower').style.zIndex = 590
 
 // variables for markers
 var answerYY = L.icon({
-	iconUrl: 'https://lalanguageproject.github.io/maps/Modals/yesyes.png',
+	iconUrl: 'https://ishport.github.io/lalanguageproject/maps/Modals/yesyes.png',
 	iconSize: [16, 16]
 });
 var answerYN = L.icon({
-	iconUrl: 'https://lalanguageproject.github.io/maps/Modals/yesno.png',
+	iconUrl: 'https://ishport.github.io/lalanguageproject/maps/Modals/yesno.png',
 	iconSize: [16, 16]
 });
 var answerNY = L.icon({
-	iconUrl: 'https://lalanguageproject.github.io/maps/Modals/noyes.png',
+	iconUrl: 'https://ishport.github.io/lalanguageproject/maps/Modals/noyes.png',
 	iconSize: [16, 16]
 });
 var answerNN = L.icon({
-	iconUrl: 'https://lalanguageproject.github.io/maps/Modals/nono.png',
+	iconUrl: 'https://ishport.github.io/lalanguageproject/maps/Modals/nono.png',
 	iconSize: [16, 16]
 });
 
 // Add GeoJSON with markers
 // Layer 1
-let lingvoData = 'https://lalanguageproject.github.io/maps/Modals/adverbs.geojson'
+let lingvoData = 'https://ishport.github.io/lalanguageproject/maps/Modals/adverbs.geojson'
 jQuery.getJSON(lingvoData, function (data) {
 	answerSet1 = L.geoJson(data, {
 		onEachFeature: onEachFeature1,
@@ -58,7 +58,7 @@ jQuery.getJSON(lingvoData, function (data) {
 })
 
 // Layer 2
-let lingvoData2 = 'https://lalanguageproject.github.io/maps/Modals/negations.geojson'
+let lingvoData2 = 'https://ishport.github.io/lalanguageproject/maps/Modals/negations.geojson'
 jQuery.getJSON(lingvoData2, function (data) {
 	answerSet2 = L.geoJson(data, {
 		onEachFeature: onEachFeature2,
@@ -74,7 +74,7 @@ jQuery.getJSON(lingvoData2, function (data) {
 })
 
 // Layer 3
-let lingvoData3 = 'https://lalanguageproject.github.io/maps/Modals/questions.geojson'
+let lingvoData3 = 'https://ishport.github.io/lalanguageproject/maps/Modals/questions.geojson'
 jQuery.getJSON(lingvoData3, function (data) {
 	answerSet3 = L.geoJson(data, {
 		onEachFeature: onEachFeature3,
@@ -90,7 +90,7 @@ jQuery.getJSON(lingvoData3, function (data) {
 })
 
 // Layer 4
-let lingvoData4 = 'https://lalanguageproject.github.io/maps/Modals/double.geojson'
+let lingvoData4 = 'https://ishport.github.io/lalanguageproject/maps/Modals/double.geojson'
 jQuery.getJSON(lingvoData4, function (data) {
 	answerSet4 = L.geoJson(data, {
 		 onEachFeature: onEachFeature4,
@@ -114,7 +114,7 @@ jQuery.getJSON(lingvoData4, function (data) {
 })
 
 // Parishes
-let parishUrl = 'https://lalanguageproject.github.io/maps/ParishSimple.geojson'
+let parishUrl = 'https://ishport.github.io/lalanguageproject/maps/ParishSimple.geojson'
 jQuery.getJSON(parishUrl, function (data) {
 	let parishes = function (feature) {
 			let parishColor = '#6867F1'
@@ -141,7 +141,7 @@ let onEachFeature6 = function (feature, layer) {
  }
 
 // ZIP codes
-let zipUrl = 'https://lalanguageproject.github.io/maps/ZIPSimple.geojson'
+let zipUrl = 'https://ishport.github.io/lalanguageproject/maps/ZIPSimple.geojson'
 jQuery.getJSON(zipUrl, function (data) {
  	let zipCodes = function (feature) {
  			let zipColor = '#3360A3'
