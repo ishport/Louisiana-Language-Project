@@ -1,0 +1,44 @@
+.navbar {
+  height: 60px
+}
+
+#disclaimer {
+  margin: 25px 25px 25px 25px;
+  font-size: 40px;
+  color: #3360A3;
+}
+
+#modals {
+  height: 620px;
+  width: 100%
+}
+
+
+.info {
+    width: 420px;
+    height: 260px;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #3360A3;
+}
+
+.leftCol {
+  text-align: center;
+  width: 75px;
+  border: 1px solid black
+}
+
+.rightCol {
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+  width: 300px;
+  font-weight: normal;
+  border: 1px solid black
+}
